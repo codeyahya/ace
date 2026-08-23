@@ -126,23 +126,11 @@ ACE is still being developed. Planned improvements include:
 * [ ] Performance improvements
 * [ ] More settings and customization
 
-## 🤝 Contributing
-
-ACE is an open-source project. Contributions, bug reports, and suggestions are welcome.
-
-If you find a bug or have an idea for a new feature, feel free to open an issue.
-
 ## 📄 License
 
 ACE is released under the MIT License.
 
-## 🙏 Acknowledgements
+## 🙏 Dependencies
 
 * [CodeMirror](https://codemirror.net/) for the code editor engine.
-* [Svelte](https://svelte.dev/) for the frontend framework.
 * [Tauri](https://tauri.app/) for the desktop application framework.
-* [Rust](https://www.rust-lang.org/) for the native backend.
-
----
-
-README generated with ChatGPT
