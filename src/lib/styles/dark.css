@@ -13,9 +13,10 @@ body[data-theme="dark"] {
   --overlay: rgb(0, 0, 0, 0.04);
   --blurredBg: rgb(255, 255, 255, 0.01);
   --blurredBgHovers: rgb(255, 255, 255, 0.1);
-  --borderColor: rgb(255, 255, 255, 0.1);
+  --borderColor: rgb(255, 255, 255, 0.05);
   --editorUl: rgb(240, 240, 240);
   --itemActive: rgb(255, 255, 255, 0.1);
+  --c: rgb(255,255,255);
 
   background: var(--bg);
   color: white;
@@ -39,7 +40,7 @@ body[data-theme="dark"] {
     }
 
     &:hover {
-      background-color: var(--df) !important;
+      background-color: var(--itemActive) !important;
 
       path {
         stroke: white;

@@ -1,5 +1,9 @@
+let cached: Record<string, string[]> | null = null;
+
 export function GetKeywords() {
-  return {
+  if (cached) return cached;
+
+  cached = {
     js: `
       async await break case catch class const continue debugger default delete do else
       enum export extends false finally for function if import in instanceof new null
@@ -8394,4 +8398,6 @@ export function GetKeywords() {
       equ times macro endm include bits org align ptr byte word dword qword tword
     `.split(/\s+/),
   };
+
+  return cached
 }

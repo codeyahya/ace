@@ -10,6 +10,8 @@ find if file exists before adding it
 
 add rename files
 
+add open pwsh on click to fast run cmd
+
 // FIXES
 
 massive autocomplete support for dozens of langauges

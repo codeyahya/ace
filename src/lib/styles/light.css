@@ -15,6 +15,7 @@ body[data-theme="light"] {
   --borderColor: rgb(0, 0, 0, 0.1);
   --editorUl: rgb(240, 240, 240);
   --itemActive: rgb(0, 0, 0, 0.07);
+  --c: rgb(0,0,0);
 
   background: var(--bg);
 
@@ -31,17 +32,9 @@ body[data-theme="light"] {
 
   .baseBtn:not(.headerSetNav) {
     &:hover {
-      background-color: var(--df) !important;
-      color: white !important;
+      background-color: var(--itemActive) !important;
 
-      path {
-        stroke: white;
-      }
 
-      svg * {
-        fill: white;
-        stroke: white;
-      }
     }
   }
 
